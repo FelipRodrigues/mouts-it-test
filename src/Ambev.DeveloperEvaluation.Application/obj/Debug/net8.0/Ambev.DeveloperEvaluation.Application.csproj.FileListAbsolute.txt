@@ -1,0 +1,17 @@
+/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/bin/Debug/net8.0/Ambev.DeveloperEvaluation.Application.deps.json
+/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/bin/Debug/net8.0/Ambev.DeveloperEvaluation.Application.dll
+/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/bin/Debug/net8.0/Ambev.DeveloperEvaluation.Application.pdb
+/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/bin/Debug/net8.0/Ambev.DeveloperEvaluation.Common.dll
+/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/bin/Debug/net8.0/Ambev.DeveloperEvaluation.Domain.dll
+/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/bin/Debug/net8.0/Ambev.DeveloperEvaluation.Domain.pdb
+/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/bin/Debug/net8.0/Ambev.DeveloperEvaluation.Common.pdb
+/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/obj/Debug/net8.0/Ambev.DeveloperEvaluation.Application.csproj.AssemblyReference.cache
+/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/obj/Debug/net8.0/Ambev.DeveloperEvaluation.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/obj/Debug/net8.0/Ambev.DeveloperEvaluation.Application.AssemblyInfoInputs.cache
+/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/obj/Debug/net8.0/Ambev.DeveloperEvaluation.Application.AssemblyInfo.cs
+/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/obj/Debug/net8.0/Ambev.DeveloperEvaluation.Application.csproj.CoreCompileInputs.cache
+/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/obj/Debug/net8.0/Ambev.De.8B5E65A2.Up2Date
+/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/obj/Debug/net8.0/Ambev.DeveloperEvaluation.Application.dll
+/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/obj/Debug/net8.0/refint/Ambev.DeveloperEvaluation.Application.dll
+/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/obj/Debug/net8.0/Ambev.DeveloperEvaluation.Application.pdb
+/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/obj/Debug/net8.0/ref/Ambev.DeveloperEvaluation.Application.dll

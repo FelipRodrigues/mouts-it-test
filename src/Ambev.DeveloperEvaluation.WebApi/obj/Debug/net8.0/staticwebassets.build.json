@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "J6kJSaUbhHWjp1pkdTpmnfLvsxfncSpjWL6CMDVEQhw=",
+  "Source": "Ambev.DeveloperEvaluation.WebApi",
+  "BasePath": "_content/Ambev.DeveloperEvaluation.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
