@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KIehBFuTBqc=",
+  "dgSpecHash": "Ki5KBx8kSIQ=",
   "success": true,
-  "projectFilePath": "/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.WebApi/Ambev.DeveloperEvaluation.WebApi.csproj",
+  "projectFilePath": "/Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.WebApi/Ambev.DeveloperEvaluation.WebApi.csproj",
   "expectedPackageFiles": [
     "/Users/feliperodrigues/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/feliperodrigues/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",

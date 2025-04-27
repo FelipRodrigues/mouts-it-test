@@ -1,0 +1,13 @@
+2025-04-27 18:12:14.104 -03:00 [INF] Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService Health Check enabled at: '/health'
+2025-04-27 18:12:14.190 -03:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using '/Users/feliperodrigues/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-04-27 18:12:14.461 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: https://localhost:7181
+2025-04-27 18:12:14.461 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5119
+2025-04-27 18:12:14.462 -03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2025-04-27 18:12:14.462 -03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: Development
+2025-04-27 18:12:14.462 -03:00 [INF] Microsoft.Hosting.Lifetime Content root path: /Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.WebApi
+2025-04-27 18:12:15.217 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/index.html - null null
+2025-04-27 18:12:15.373 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/index.html - 200 null text/html;charset=utf-8 162.0693ms
+2025-04-27 18:12:15.407 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/index.js - null null
+2025-04-27 18:12:15.410 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/index.js - 200 null application/javascript;charset=utf-8 3.8526ms
+2025-04-27 18:12:15.445 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - null null
+2025-04-27 18:12:15.544 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 99.3196ms

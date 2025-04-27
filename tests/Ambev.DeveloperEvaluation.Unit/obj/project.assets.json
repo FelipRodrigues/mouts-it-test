@@ -5341,11 +5341,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/tests/Ambev.DeveloperEvaluation.Unit/Ambev.DeveloperEvaluation.Unit.csproj",
+      "projectUniqueName": "/Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/tests/Ambev.DeveloperEvaluation.Unit/Ambev.DeveloperEvaluation.Unit.csproj",
       "projectName": "Ambev.DeveloperEvaluation.Unit",
-      "projectPath": "/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/tests/Ambev.DeveloperEvaluation.Unit/Ambev.DeveloperEvaluation.Unit.csproj",
+      "projectPath": "/Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/tests/Ambev.DeveloperEvaluation.Unit/Ambev.DeveloperEvaluation.Unit.csproj",
       "packagesPath": "/Users/feliperodrigues/.nuget/packages/",
-      "outputPath": "/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/tests/Ambev.DeveloperEvaluation.Unit/obj/",
+      "outputPath": "/Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/tests/Ambev.DeveloperEvaluation.Unit/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
@@ -5361,14 +5361,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/Ambev.DeveloperEvaluation.Application.csproj": {
-              "projectPath": "/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Application/Ambev.DeveloperEvaluation.Application.csproj"
+            "/Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.Application/Ambev.DeveloperEvaluation.Application.csproj": {
+              "projectPath": "/Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.Application/Ambev.DeveloperEvaluation.Application.csproj"
             },
-            "/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Domain/Ambev.DeveloperEvaluation.Domain.csproj": {
-              "projectPath": "/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.Domain/Ambev.DeveloperEvaluation.Domain.csproj"
+            "/Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.Domain/Ambev.DeveloperEvaluation.Domain.csproj": {
+              "projectPath": "/Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.Domain/Ambev.DeveloperEvaluation.Domain.csproj"
             },
-            "/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.ORM/Ambev.DeveloperEvaluation.ORM.csproj": {
-              "projectPath": "/Users/feliperodrigues/Downloads/abi-gth-omnia-developer-evaluation/template/backend/src/Ambev.DeveloperEvaluation.ORM/Ambev.DeveloperEvaluation.ORM.csproj"
+            "/Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.ORM/Ambev.DeveloperEvaluation.ORM.csproj": {
+              "projectPath": "/Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.ORM/Ambev.DeveloperEvaluation.ORM.csproj"
             }
           }
         }
