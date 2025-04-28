@@ -307,3 +307,5 @@
 /Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/tests/Ambev.DeveloperEvaluation.Integration/obj/Debug/net8.0/Ambev.DeveloperEvaluation.Integration.pdb
 /Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/tests/Ambev.DeveloperEvaluation.Integration/obj/Debug/net8.0/Ambev.DeveloperEvaluation.Integration.genruntimeconfig.cache
 /Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/tests/Ambev.DeveloperEvaluation.Integration/obj/Debug/net8.0/ref/Ambev.DeveloperEvaluation.Integration.dll
+/Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/tests/Ambev.DeveloperEvaluation.Integration/bin/Debug/net8.0/Pipelines.Sockets.Unofficial.dll
+/Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/tests/Ambev.DeveloperEvaluation.Integration/bin/Debug/net8.0/StackExchange.Redis.dll

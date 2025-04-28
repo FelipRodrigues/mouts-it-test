@@ -7,9 +7,7 @@ namespace Ambev.DeveloperEvaluation.ORM
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
-        {
-        }
+            : base(options) { }
 
         public DbSet<Sale> Sales { get; set; }
         public DbSet<SaleItem> SaleItems { get; set; }
@@ -22,4 +20,4 @@ namespace Ambev.DeveloperEvaluation.ORM
             modelBuilder.ApplyConfiguration(new SaleItemConfiguration());
         }
     }
-} 
+}

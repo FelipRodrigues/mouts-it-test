@@ -24,7 +24,14 @@ namespace Ambev.DeveloperEvaluation.Domain.Entities
             Items = new List<SaleItem>();
         }
 
-        public Sale(string saleNumber, DateTime saleDate, Guid customerId, string customerName, Guid branchId, string branchName)
+        public Sale(
+            string saleNumber,
+            DateTime saleDate,
+            Guid customerId,
+            string customerName,
+            Guid branchId,
+            string branchName
+        )
         {
             if (string.IsNullOrWhiteSpace(saleNumber))
                 throw new ArgumentException("Sale number is required.", nameof(saleNumber));
@@ -42,4 +49,4 @@ namespace Ambev.DeveloperEvaluation.Domain.Entities
             Items = new List<SaleItem>();
         }
     }
-} 
+}

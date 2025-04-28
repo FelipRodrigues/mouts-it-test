@@ -12,7 +12,6 @@ public class CancelSaleRequestValidator : AbstractValidator<CancelSaleRequest>
 {
     public CancelSaleRequestValidator()
     {
-        RuleFor(x => x.Id)
-            .NotEmpty();
+        RuleFor(x => x.Id).NotEmpty();
     }
-} 
+}

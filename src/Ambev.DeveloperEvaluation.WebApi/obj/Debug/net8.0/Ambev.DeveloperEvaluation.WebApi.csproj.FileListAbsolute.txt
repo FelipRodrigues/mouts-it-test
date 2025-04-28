@@ -309,3 +309,6 @@
 /Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.WebApi/obj/Debug/net8.0/Ambev.DeveloperEvaluation.WebApi.pdb
 /Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.WebApi/obj/Debug/net8.0/Ambev.DeveloperEvaluation.WebApi.genruntimeconfig.cache
 /Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.WebApi/obj/Debug/net8.0/ref/Ambev.DeveloperEvaluation.WebApi.dll
+/Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.WebApi/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.WebApi/bin/Debug/net8.0/Pipelines.Sockets.Unofficial.dll
+/Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.WebApi/bin/Debug/net8.0/StackExchange.Redis.dll

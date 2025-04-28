@@ -447,3 +447,5 @@
 /Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/tests/Ambev.DeveloperEvaluation.Unit/obj/Debug/net8.0/Ambev.DeveloperEvaluation.Unit.pdb
 /Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/tests/Ambev.DeveloperEvaluation.Unit/obj/Debug/net8.0/Ambev.DeveloperEvaluation.Unit.genruntimeconfig.cache
 /Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/tests/Ambev.DeveloperEvaluation.Unit/obj/Debug/net8.0/ref/Ambev.DeveloperEvaluation.Unit.dll
+/Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/tests/Ambev.DeveloperEvaluation.Unit/bin/Debug/net8.0/Pipelines.Sockets.Unofficial.dll
+/Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/tests/Ambev.DeveloperEvaluation.Unit/bin/Debug/net8.0/StackExchange.Redis.dll

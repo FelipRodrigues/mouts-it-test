@@ -10,9 +10,18 @@ namespace Ambev.DeveloperEvaluation.Application.Sales.Interfaces
     {
         Task<SaleDto?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
         Task<IEnumerable<SaleDto>> GetAllAsync(CancellationToken cancellationToken = default);
-        Task<SaleDto?> GetBySaleNumberAsync(string saleNumber, CancellationToken cancellationToken = default);
-        Task<SaleDto> CreateAsync(CreateSaleDto createSaleDto, CancellationToken cancellationToken = default);
-        Task<SaleDto?> UpdateAsync(UpdateSaleDto updateSaleDto, CancellationToken cancellationToken = default);
+        Task<SaleDto?> GetBySaleNumberAsync(
+            string saleNumber,
+            CancellationToken cancellationToken = default
+        );
+        Task<SaleDto> CreateAsync(
+            CreateSaleDto createSaleDto,
+            CancellationToken cancellationToken = default
+        );
+        Task<SaleDto?> UpdateAsync(
+            UpdateSaleDto updateSaleDto,
+            CancellationToken cancellationToken = default
+        );
         Task<bool> DeleteAsync(Guid id, CancellationToken cancellationToken = default);
     }
-} 
+}

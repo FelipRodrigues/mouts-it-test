@@ -11,3 +11,4 @@
 2025-04-27 18:12:15.410 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/index.js - 200 null application/javascript;charset=utf-8 3.8526ms
 2025-04-27 18:12:15.445 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - null null
 2025-04-27 18:12:15.544 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 99.3196ms
+2025-04-27 18:15:24.053 -03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...

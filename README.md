@@ -28,10 +28,40 @@ O projeto utiliza três bancos de dados diferentes:
      - Usuário root: developer
      - Senha root: ev@luAt10n
 
-3. **Redis** (Porta: 6379)
+3. **Redis** (Porta: 6380)
    - Cache em memória
    - Configuração:
      - Senha: ev@luAt10n
+
+## Uso de Redis no Projeto
+
+As rotas de consulta de usuário e vendas utilizam cache Redis para otimizar a performance e reduzir a carga no banco de dados:
+
+- **Usuários:**
+  - Busca de usuário por ID utiliza cache Redis.
+- **Vendas:**
+  - Busca de venda por ID e por número de venda utiliza cache Redis.
+  - O cache é automaticamente invalidado ao criar, atualizar ou deletar vendas.
+
+Certifique-se de que o serviço Redis está rodando para garantir o funcionamento ideal dessas rotas.
+
+### Rotas que utilizam Redis
+
+#### Usuários
+- **GET /api/users/{id}**  
+  Consulta usuário por ID (usa cache Redis para leitura).
+  
+#### Vendas
+- **GET /api/sales/{id}**  
+  Consulta venda por ID (usa cache Redis para leitura).
+- **GET /api/sales/number/{saleNumber}**  
+  Consulta venda por número (usa cache Redis para leitura).
+- **PUT /api/sales/{id}**  
+  Atualiza venda (invalida o cache Redis relacionado à venda).
+- **DELETE /api/sales/{id}**  
+  Remove venda (invalida o cache Redis relacionado à venda).
+- **POST /api/sales**  
+  Cria venda (invalida o cache Redis relacionado à venda).
 
 ## Como Executar os Bancos de Dados
 
@@ -78,13 +108,23 @@ cd src/Ambev.DeveloperEvaluation.ORM
 
 2. Crie uma nova migration (se necessário):
 ```bash
-dotnet ef migrations add InitialMigration --startup-project ../Ambev.DeveloperEvaluation.WebApi
+dotnet ef migrations add NomeDaMigration --startup-project ../Ambev.DeveloperEvaluation.WebApi
 ```
 
-3. Aplique a migration ao banco de dados:
+3. **Aplique as migrations para ambos os DbContexts**
+
+Este projeto utiliza dois DbContexts distintos: `DefaultContext` e `ApplicationDbContext`.
+Para garantir que todas as tabelas e estruturas estejam corretas no banco de dados, é necessário executar o comando de atualização de migrations para cada contexto separadamente:
+
 ```bash
-dotnet ef database update --startup-project ../Ambev.DeveloperEvaluation.WebApi
+# Atualizar o banco para o contexto DefaultContext
+dotnet ef database update --startup-project ../Ambev.DeveloperEvaluation.WebApi --context DefaultContext
+
+# Atualizar o banco para o contexto ApplicationDbContext
+dotnet ef database update --startup-project ../Ambev.DeveloperEvaluation.WebApi --context ApplicationDbContext
 ```
+
+> **Dica:** Sempre que criar ou modificar migrations, execute os dois comandos acima para garantir que ambos os contextos estejam sincronizados com o banco de dados.
 
 ### Acessando os Bancos de Dados
 
@@ -104,7 +144,7 @@ mongosh "mongodb://developer:ev@luAt10n@localhost:27017"
 #### Redis
 ```bash
 # Conectar via redis-cli
-redis-cli -h localhost -p 6379 -a ev@luAt10n
+redis-cli -h localhost -p 6380 -a ev@luAt10n
 ```
 
 ## Desenvolvimento
@@ -153,3 +193,18 @@ dotnet tool install --global dotnet-ef
 
 3. Certifique-se de que está no diretório correto ao executar os comandos de migration
 4. Verifique se o arquivo appsettings.json contém a string de conexão correta 
+
+## Publicação de Eventos (Mockado)
+
+O projeto possui métodos prontos para publicação de eventos de negócio relacionados a vendas:
+- SaleCreated
+- SaleModified
+- SaleCancelled
+- ItemCancelled
+
+Esses eventos estão preparados para serem publicados via AWS SNS/SQS, porém atualmente a implementação está **mockada** (os eventos são apenas exibidos no console). Isso permite fácil integração futura com AWS, bastando implementar a lógica real no serviço `SnsSqsEventPublisher`.
+
+Os métodos de publicação podem ser encontrados em:
+- `IEventPublisher` (interface)
+- `SnsSqsEventPublisher` (mock)
+- Chamados automaticamente em `SaleService` ao criar, modificar ou cancelar vendas/itens. 

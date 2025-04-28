@@ -57,4 +57,4 @@ namespace Ambev.DeveloperEvaluation.Application.Sales.Dtos
         public bool IsCancelled { get; set; }
         public List<CreateSaleItemDto> Items { get; set; }
     }
-} 
+}

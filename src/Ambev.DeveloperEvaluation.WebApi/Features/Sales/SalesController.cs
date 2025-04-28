@@ -1,9 +1,9 @@
-using Microsoft.AspNetCore.Mvc;
-using AutoMapper;
-using Ambev.DeveloperEvaluation.WebApi.Common;
-using Ambev.DeveloperEvaluation.Application.Sales.Interfaces;
 using Ambev.DeveloperEvaluation.Application.Sales.Dtos;
+using Ambev.DeveloperEvaluation.Application.Sales.Interfaces;
+using Ambev.DeveloperEvaluation.WebApi.Common;
+using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Ambev.DeveloperEvaluation.WebApi.Features.Sales;
 
@@ -38,16 +38,22 @@ public class SalesController : BaseController
     [HttpPost]
     [ProducesResponseType(typeof(ApiResponseWithData<SaleDto>), StatusCodes.Status201Created)]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
-    public async Task<IActionResult> CreateSale([FromBody] CreateSaleDto request, CancellationToken cancellationToken)
+    public async Task<IActionResult> CreateSale(
+        [FromBody] CreateSaleDto request,
+        CancellationToken cancellationToken
+    )
     {
         var response = await _saleService.CreateAsync(request, cancellationToken);
 
-        return Created(string.Empty, new ApiResponseWithData<SaleDto>
-        {
-            Success = true,
-            Message = "Sale created successfully",
-            Data = response
-        });
+        return Created(
+            string.Empty,
+            new ApiResponseWithData<SaleDto>
+            {
+                Success = true,
+                Message = "Sale created successfully",
+                Data = response,
+            }
+        );
     }
 
     /// <summary>
@@ -59,18 +65,23 @@ public class SalesController : BaseController
     [HttpGet("{id}")]
     [ProducesResponseType(typeof(ApiResponseWithData<SaleDto>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
-    public async Task<IActionResult> GetSale([FromRoute] Guid id, CancellationToken cancellationToken)
+    public async Task<IActionResult> GetSale(
+        [FromRoute] Guid id,
+        CancellationToken cancellationToken
+    )
     {
         var response = await _saleService.GetByIdAsync(id, cancellationToken);
         if (response == null)
             return NotFound(new ApiResponse { Success = false, Message = "Sale not found" });
 
-        return Ok(new ApiResponseWithData<SaleDto>
-        {
-            Success = true,
-            Message = "Sale retrieved successfully",
-            Data = response
-        });
+        return Ok(
+            new ApiResponseWithData<SaleDto>
+            {
+                Success = true,
+                Message = "Sale retrieved successfully",
+                Data = response,
+            }
+        );
     }
 
     /// <summary>
@@ -84,7 +95,11 @@ public class SalesController : BaseController
     [ProducesResponseType(typeof(ApiResponseWithData<SaleDto>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status400BadRequest)]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
-    public async Task<IActionResult> UpdateSale([FromRoute] Guid id, [FromBody] UpdateSaleDto request, CancellationToken cancellationToken)
+    public async Task<IActionResult> UpdateSale(
+        [FromRoute] Guid id,
+        [FromBody] UpdateSaleDto request,
+        CancellationToken cancellationToken
+    )
     {
         if (id != request.Id)
             return BadRequest(new ApiResponse { Success = false, Message = "ID mismatch" });
@@ -93,12 +108,14 @@ public class SalesController : BaseController
         if (response == null)
             return NotFound(new ApiResponse { Success = false, Message = "Sale not found" });
 
-        return Ok(new ApiResponseWithData<SaleDto>
-        {
-            Success = true,
-            Message = "Sale updated successfully",
-            Data = response
-        });
+        return Ok(
+            new ApiResponseWithData<SaleDto>
+            {
+                Success = true,
+                Message = "Sale updated successfully",
+                Data = response,
+            }
+        );
     }
 
     /// <summary>
@@ -110,17 +127,16 @@ public class SalesController : BaseController
     [HttpDelete("{id}")]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
-    public async Task<IActionResult> DeleteSale([FromRoute] Guid id, CancellationToken cancellationToken)
+    public async Task<IActionResult> DeleteSale(
+        [FromRoute] Guid id,
+        CancellationToken cancellationToken
+    )
     {
         var success = await _saleService.DeleteAsync(id, cancellationToken);
         if (!success)
             return NotFound(new ApiResponse { Success = false, Message = "Sale not found" });
 
-        return Ok(new ApiResponse
-        {
-            Success = true,
-            Message = "Sale deleted successfully"
-        });
+        return Ok(new ApiResponse { Success = true, Message = "Sale deleted successfully" });
     }
 
     /// <summary>
@@ -132,18 +148,23 @@ public class SalesController : BaseController
     [HttpGet("number/{saleNumber}")]
     [ProducesResponseType(typeof(ApiResponseWithData<SaleDto>), StatusCodes.Status200OK)]
     [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
-    public async Task<IActionResult> GetSaleByNumber([FromRoute] string saleNumber, CancellationToken cancellationToken)
+    public async Task<IActionResult> GetSaleByNumber(
+        [FromRoute] string saleNumber,
+        CancellationToken cancellationToken
+    )
     {
         var response = await _saleService.GetBySaleNumberAsync(saleNumber, cancellationToken);
         if (response == null)
             return NotFound(new ApiResponse { Success = false, Message = "Sale not found" });
 
-        return Ok(new ApiResponseWithData<SaleDto>
-        {
-            Success = true,
-            Message = "Sale retrieved successfully",
-            Data = response
-        });
+        return Ok(
+            new ApiResponseWithData<SaleDto>
+            {
+                Success = true,
+                Message = "Sale retrieved successfully",
+                Data = response,
+            }
+        );
     }
 
     /// <summary>
@@ -152,16 +173,21 @@ public class SalesController : BaseController
     /// <param name="cancellationToken">Cancellation token</param>
     /// <returns>List of all sales</returns>
     [HttpGet]
-    [ProducesResponseType(typeof(ApiResponseWithData<IEnumerable<SaleDto>>), StatusCodes.Status200OK)]
+    [ProducesResponseType(
+        typeof(ApiResponseWithData<IEnumerable<SaleDto>>),
+        StatusCodes.Status200OK
+    )]
     public async Task<IActionResult> GetAllSales(CancellationToken cancellationToken)
     {
         var response = await _saleService.GetAllAsync(cancellationToken);
 
-        return Ok(new ApiResponseWithData<IEnumerable<SaleDto>>
-        {
-            Success = true,
-            Message = "Sales retrieved successfully",
-            Data = response
-        });
+        return Ok(
+            new ApiResponseWithData<IEnumerable<SaleDto>>
+            {
+                Success = true,
+                Message = "Sales retrieved successfully",
+                Data = response,
+            }
+        );
     }
-} 
+}

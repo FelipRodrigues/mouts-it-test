@@ -1,9 +1,9 @@
-﻿using AutoMapper;
-using MediatR;
-using FluentValidation;
-using Ambev.DeveloperEvaluation.Domain.Repositories;
+﻿using Ambev.DeveloperEvaluation.Common.Security;
 using Ambev.DeveloperEvaluation.Domain.Entities;
-using Ambev.DeveloperEvaluation.Common.Security;
+using Ambev.DeveloperEvaluation.Domain.Repositories;
+using AutoMapper;
+using FluentValidation;
+using MediatR;
 
 namespace Ambev.DeveloperEvaluation.Application.Users.CreateUser;
 
@@ -22,7 +22,11 @@ public class CreateUserHandler : IRequestHandler<CreateUserCommand, CreateUserRe
     /// <param name="userRepository">The user repository</param>
     /// <param name="mapper">The AutoMapper instance</param>
     /// <param name="validator">The validator for CreateUserCommand</param>
-    public CreateUserHandler(IUserRepository userRepository, IMapper mapper, IPasswordHasher passwordHasher)
+    public CreateUserHandler(
+        IUserRepository userRepository,
+        IMapper mapper,
+        IPasswordHasher passwordHasher
+    )
     {
         _userRepository = userRepository;
         _mapper = mapper;
@@ -35,7 +39,10 @@ public class CreateUserHandler : IRequestHandler<CreateUserCommand, CreateUserRe
     /// <param name="command">The CreateUser command</param>
     /// <param name="cancellationToken">Cancellation token</param>
     /// <returns>The created user details</returns>
-    public async Task<CreateUserResult> Handle(CreateUserCommand command, CancellationToken cancellationToken)
+    public async Task<CreateUserResult> Handle(
+        CreateUserCommand command,
+        CancellationToken cancellationToken
+    )
     {
         var validator = new CreateUserCommandValidator();
         var validationResult = await validator.ValidateAsync(command, cancellationToken);

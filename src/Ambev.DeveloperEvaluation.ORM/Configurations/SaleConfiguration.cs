@@ -12,35 +12,24 @@ namespace Ambev.DeveloperEvaluation.ORM.Configurations
 
             builder.HasKey(s => s.Id);
 
-            builder.Property(s => s.SaleNumber)
-                .IsRequired()
-                .HasMaxLength(50);
+            builder.Property(s => s.SaleNumber).IsRequired().HasMaxLength(50);
 
-            builder.Property(s => s.SaleDate)
-                .IsRequired();
+            builder.Property(s => s.SaleDate).IsRequired();
 
-            builder.Property(s => s.CustomerId)
-                .IsRequired();
+            builder.Property(s => s.CustomerId).IsRequired();
 
-            builder.Property(s => s.CustomerName)
-                .IsRequired()
-                .HasMaxLength(200);
+            builder.Property(s => s.CustomerName).IsRequired().HasMaxLength(200);
 
-            builder.Property(s => s.BranchId)
-                .IsRequired();
+            builder.Property(s => s.BranchId).IsRequired();
 
-            builder.Property(s => s.BranchName)
-                .IsRequired()
-                .HasMaxLength(200);
+            builder.Property(s => s.BranchName).IsRequired().HasMaxLength(200);
 
-            builder.Property(s => s.TotalAmount)
-                .IsRequired()
-                .HasPrecision(18, 2);
+            builder.Property(s => s.TotalAmount).IsRequired().HasPrecision(18, 2);
 
-            builder.Property(s => s.IsCancelled)
-                .IsRequired();
+            builder.Property(s => s.IsCancelled).IsRequired();
 
-            builder.HasMany(s => s.Items)
+            builder
+                .HasMany(s => s.Items)
                 .WithOne(si => si.Sale)
                 .HasForeignKey(si => si.SaleId)
                 .OnDelete(DeleteBehavior.Cascade);
@@ -55,30 +44,19 @@ namespace Ambev.DeveloperEvaluation.ORM.Configurations
 
             builder.HasKey(si => si.Id);
 
-            builder.Property(si => si.ProductId)
-                .IsRequired();
+            builder.Property(si => si.ProductId).IsRequired();
 
-            builder.Property(si => si.ProductName)
-                .IsRequired()
-                .HasMaxLength(200);
+            builder.Property(si => si.ProductName).IsRequired().HasMaxLength(200);
 
-            builder.Property(si => si.UnitPrice)
-                .IsRequired()
-                .HasPrecision(18, 2);
+            builder.Property(si => si.UnitPrice).IsRequired().HasPrecision(18, 2);
 
-            builder.Property(si => si.Quantity)
-                .IsRequired();
+            builder.Property(si => si.Quantity).IsRequired();
 
-            builder.Property(si => si.Discount)
-                .IsRequired()
-                .HasPrecision(18, 2);
+            builder.Property(si => si.Discount).IsRequired().HasPrecision(18, 2);
 
-            builder.Property(si => si.TotalAmount)
-                .IsRequired()
-                .HasPrecision(18, 2);
+            builder.Property(si => si.TotalAmount).IsRequired().HasPrecision(18, 2);
 
-            builder.Property(si => si.SaleId)
-                .IsRequired();
+            builder.Property(si => si.SaleId).IsRequired();
         }
     }
-} 
+}

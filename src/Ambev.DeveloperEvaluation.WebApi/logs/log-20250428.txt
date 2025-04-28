@@ -1,0 +1,361 @@
+2025-04-28 12:00:27.486 -03:00 [INF] Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService Health Check enabled at: '/health'
+2025-04-28 12:00:27.561 -03:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using '/Users/feliperodrigues/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-04-28 12:00:27.892 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: https://localhost:7181
+2025-04-28 12:00:27.892 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5119
+2025-04-28 12:00:27.892 -03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2025-04-28 12:00:27.892 -03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: Development
+2025-04-28 12:00:27.893 -03:00 [INF] Microsoft.Hosting.Lifetime Content root path: /Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.WebApi
+2025-04-28 12:00:28.541 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger - null null
+2025-04-28 12:00:28.572 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger - 301 0 null 32.0729ms
+2025-04-28 12:00:28.584 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/index.html - null null
+2025-04-28 12:00:28.618 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/index.html - 200 null text/html;charset=utf-8 34.23ms
+2025-04-28 12:00:28.638 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/swagger-ui.css - null null
+2025-04-28 12:00:28.640 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/swagger-ui-bundle.js - null null
+2025-04-28 12:00:28.640 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/swagger-ui-standalone-preset.js - null null
+2025-04-28 12:00:28.640 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/index.css - null null
+2025-04-28 12:00:28.641 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/index.js - null null
+2025-04-28 12:00:28.642 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/index.js - 200 null application/javascript;charset=utf-8 1.0914ms
+2025-04-28 12:00:28.646 -03:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-04-28 12:00:28.646 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/index.css - 200 202 text/css 5.5768ms
+2025-04-28 12:00:28.659 -03:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-04-28 12:00:28.659 -03:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-04-28 12:00:28.661 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/swagger-ui.css - 200 152034 text/css 23.6439ms
+2025-04-28 12:00:28.661 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/swagger-ui-standalone-preset.js - 200 230293 text/javascript 20.6664ms
+2025-04-28 12:00:28.665 -03:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-04-28 12:00:28.666 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/swagger-ui-bundle.js - 200 1452753 text/javascript 25.1584ms
+2025-04-28 12:00:28.739 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - null null
+2025-04-28 12:00:28.752 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/favicon-32x32.png - null null
+2025-04-28 12:00:28.752 -03:00 [INF] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-28 12:00:28.752 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/favicon-32x32.png - 200 628 image/png 0.4824ms
+2025-04-28 12:00:28.820 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 81.0246ms
+2025-04-28 12:01:30.959 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:7181/api/Users - application/json 136
+2025-04-28 12:01:31.005 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:01:31.063 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(Ambev.DeveloperEvaluation.WebApi.Features.Users.CreateUser.CreateUserRequest, System.Threading.CancellationToken) on controller Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController (Ambev.DeveloperEvaluation.WebApi).
+2025-04-28 12:01:31.137 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi) - Validation state: "Valid"
+2025-04-28 12:01:31.177 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action method Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 37.8077ms.
+2025-04-28 12:01:31.182 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing BadRequestObjectResult, writing value of type 'System.Collections.Generic.List`1[[FluentValidation.Results.ValidationFailure, FluentValidation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0]]'.
+2025-04-28 12:01:31.196 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi) in 130.3957ms
+2025-04-28 12:01:31.196 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:01:31.196 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:7181/api/Users - 400 null application/json; charset=utf-8 237.9359ms
+2025-04-28 12:01:49.346 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:7181/api/Users - application/json 140
+2025-04-28 12:01:49.350 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:01:49.350 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(Ambev.DeveloperEvaluation.WebApi.Features.Users.CreateUser.CreateUserRequest, System.Threading.CancellationToken) on controller Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController (Ambev.DeveloperEvaluation.WebApi).
+2025-04-28 12:01:49.352 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi) - Validation state: "Valid"
+2025-04-28 12:01:49.354 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action method Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 1.3977ms.
+2025-04-28 12:01:49.354 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing BadRequestObjectResult, writing value of type 'System.Collections.Generic.List`1[[FluentValidation.Results.ValidationFailure, FluentValidation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0]]'.
+2025-04-28 12:01:49.355 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi) in 4.3754ms
+2025-04-28 12:01:49.356 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:01:49.356 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:7181/api/Users - 400 null application/json; charset=utf-8 9.9234ms
+2025-04-28 12:01:57.299 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:7181/api/Users - application/json 140
+2025-04-28 12:01:57.303 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:01:57.303 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(Ambev.DeveloperEvaluation.WebApi.Features.Users.CreateUser.CreateUserRequest, System.Threading.CancellationToken) on controller Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController (Ambev.DeveloperEvaluation.WebApi).
+2025-04-28 12:01:57.306 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi) - Validation state: "Valid"
+2025-04-28 12:01:57.307 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action method Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.7103ms.
+2025-04-28 12:01:57.307 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing BadRequestObjectResult, writing value of type 'System.Collections.Generic.List`1[[FluentValidation.Results.ValidationFailure, FluentValidation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0]]'.
+2025-04-28 12:01:57.308 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi) in 4.1988ms
+2025-04-28 12:01:57.308 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:01:57.308 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:7181/api/Users - 400 null application/json; charset=utf-8 9.4431ms
+2025-04-28 12:02:07.546 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:7181/api/Users - application/json 140
+2025-04-28 12:02:07.547 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:02:07.548 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(Ambev.DeveloperEvaluation.WebApi.Features.Users.CreateUser.CreateUserRequest, System.Threading.CancellationToken) on controller Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController (Ambev.DeveloperEvaluation.WebApi).
+2025-04-28 12:02:07.549 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi) - Validation state: "Valid"
+2025-04-28 12:02:08.541 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (48ms) [Parameters=[@__email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Password", u."Phone", u."Role", u."Status", u."UpdatedAt", u."Username"
+FROM "Users" AS u
+WHERE u."Email" = @__email_0
+LIMIT 1
+2025-04-28 12:02:08.901 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (23ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?' (DbType = DateTime), @p7='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("CreatedAt", "Email", "Password", "Phone", "Role", "Status", "UpdatedAt", "Username")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7)
+RETURNING "Id";
+2025-04-28 12:02:08.920 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action method Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi), returned result Microsoft.AspNetCore.Mvc.CreatedResult in 1370.6018ms.
+2025-04-28 12:02:08.922 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing CreatedResult, writing value of type 'Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[Ambev.DeveloperEvaluation.WebApi.Features.Users.CreateUser.CreateUserResponse, Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-28 12:02:08.931 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi) in 1382.9057ms
+2025-04-28 12:02:08.931 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Users.UsersController.CreateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:02:08.938 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:7181/api/Users - 201 null application/json; charset=utf-8 1392.347ms
+2025-04-28 12:02:33.666 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:7181/api/Auth - application/json 59
+2025-04-28 12:02:33.669 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:02:33.678 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "AuthenticateUser", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUser(Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthenticateUserFeature.AuthenticateUserRequest, System.Threading.CancellationToken) on controller Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController (Ambev.DeveloperEvaluation.WebApi).
+2025-04-28 12:02:33.683 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi) - Validation state: "Valid"
+2025-04-28 12:02:33.701 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi) in 22.4935ms
+2025-04-28 12:02:33.701 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:02:33.792 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:7181/api/Auth - 500 null text/plain; charset=utf-8 125.6623ms
+2025-04-28 12:02:38.662 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:7181/api/Auth - application/json 59
+2025-04-28 12:02:38.663 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:02:38.664 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "AuthenticateUser", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUser(Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthenticateUserFeature.AuthenticateUserRequest, System.Threading.CancellationToken) on controller Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController (Ambev.DeveloperEvaluation.WebApi).
+2025-04-28 12:02:38.665 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi) - Validation state: "Valid"
+2025-04-28 12:02:38.668 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi) in 4.51ms
+2025-04-28 12:02:38.669 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:02:38.674 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:7181/api/Auth - 500 null text/plain; charset=utf-8 11.9426ms
+2025-04-28 12:04:10.690 -03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2025-04-28 12:04:16.615 -03:00 [INF] Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService Health Check enabled at: '/health'
+2025-04-28 12:04:16.681 -03:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using '/Users/feliperodrigues/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-04-28 12:04:16.922 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: https://localhost:7181
+2025-04-28 12:04:16.922 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5119
+2025-04-28 12:04:16.922 -03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2025-04-28 12:04:16.922 -03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: Development
+2025-04-28 12:04:16.922 -03:00 [INF] Microsoft.Hosting.Lifetime Content root path: /Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.WebApi
+2025-04-28 12:04:17.341 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/index.html - null null
+2025-04-28 12:04:17.403 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/index.html - 200 null text/html;charset=utf-8 62.2879ms
+2025-04-28 12:04:17.435 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/index.js - null null
+2025-04-28 12:04:17.439 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/index.js - 200 null application/javascript;charset=utf-8 3.5396ms
+2025-04-28 12:04:17.504 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - null null
+2025-04-28 12:04:17.593 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 88.2889ms
+2025-04-28 12:04:23.868 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:7181/api/Auth - application/json 59
+2025-04-28 12:04:23.907 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:04:23.925 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "AuthenticateUser", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUser(Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthenticateUserFeature.AuthenticateUserRequest, System.Threading.CancellationToken) on controller Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController (Ambev.DeveloperEvaluation.WebApi).
+2025-04-28 12:04:24.021 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi) - Validation state: "Valid"
+2025-04-28 12:04:24.888 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (44ms) [Parameters=[@__email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Password", u."Phone", u."Role", u."Status", u."UpdatedAt", u."Username"
+FROM "Users" AS u
+WHERE u."Email" = @__email_0
+LIMIT 1
+2025-04-28 12:04:25.197 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi) in 1268.8234ms
+2025-04-28 12:04:25.198 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:04:25.247 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:7181/api/Auth - 500 null text/plain; charset=utf-8 1379.2947ms
+2025-04-28 12:05:03.684 -03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2025-04-28 12:05:06.252 -03:00 [INF] Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService Health Check enabled at: '/health'
+2025-04-28 12:05:06.316 -03:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using '/Users/feliperodrigues/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-04-28 12:05:06.574 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: https://localhost:7181
+2025-04-28 12:05:06.574 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5119
+2025-04-28 12:05:06.575 -03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2025-04-28 12:05:06.575 -03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: Development
+2025-04-28 12:05:06.575 -03:00 [INF] Microsoft.Hosting.Lifetime Content root path: /Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.WebApi
+2025-04-28 12:05:07.330 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/index.html - null null
+2025-04-28 12:05:07.405 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/index.html - 200 null text/html;charset=utf-8 75.839ms
+2025-04-28 12:05:07.429 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/index.js - null null
+2025-04-28 12:05:07.432 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/index.js - 200 null application/javascript;charset=utf-8 3.0922ms
+2025-04-28 12:05:07.466 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - null null
+2025-04-28 12:05:07.564 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.6457ms
+2025-04-28 12:05:11.651 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:7181/api/Auth - application/json 59
+2025-04-28 12:05:11.685 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:05:11.716 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "AuthenticateUser", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUser(Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthenticateUserFeature.AuthenticateUserRequest, System.Threading.CancellationToken) on controller Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController (Ambev.DeveloperEvaluation.WebApi).
+2025-04-28 12:05:11.797 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi) - Validation state: "Valid"
+2025-04-28 12:05:12.739 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (45ms) [Parameters=[@__email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Password", u."Phone", u."Role", u."Status", u."UpdatedAt", u."Username"
+FROM "Users" AS u
+WHERE u."Email" = @__email_0
+LIMIT 1
+2025-04-28 12:05:13.037 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action method Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1237.666ms.
+2025-04-28 12:05:13.043 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthenticateUserFeature.AuthenticateUserResponse, Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-28 12:05:13.054 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi) in 1334.5773ms
+2025-04-28 12:05:13.055 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:05:13.064 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:7181/api/Auth - 200 null application/json; charset=utf-8 1415.009ms
+2025-04-28 12:05:35.464 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:7181/api/Sales - application/json 417
+2025-04-28 12:05:35.473 -03:00 [INF] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-28 12:05:35.476 -03:00 [INF] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler AuthenticationScheme: Bearer was challenged.
+2025-04-28 12:05:35.476 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:7181/api/Sales - 401 0 null 13.1553ms
+2025-04-28 12:07:32.135 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/api/Sales - null null
+2025-04-28 12:07:32.151 -03:00 [INF] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-28 12:07:32.151 -03:00 [INF] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler AuthenticationScheme: Bearer was challenged.
+2025-04-28 12:07:32.151 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/api/Sales - 401 0 null 18.0087ms
+2025-04-28 12:08:35.270 -03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2025-04-28 12:08:37.880 -03:00 [INF] Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService Health Check enabled at: '/health'
+2025-04-28 12:08:37.940 -03:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using '/Users/feliperodrigues/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-04-28 12:08:38.210 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: https://localhost:7181
+2025-04-28 12:08:38.211 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5119
+2025-04-28 12:08:38.211 -03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2025-04-28 12:08:38.211 -03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: Development
+2025-04-28 12:08:38.211 -03:00 [INF] Microsoft.Hosting.Lifetime Content root path: /Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.WebApi
+2025-04-28 12:08:38.858 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/index.html - null null
+2025-04-28 12:08:38.941 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/index.html - 200 null text/html;charset=utf-8 84.2541ms
+2025-04-28 12:08:38.964 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/index.js - null null
+2025-04-28 12:08:38.968 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/index.js - 200 null application/javascript;charset=utf-8 4.0741ms
+2025-04-28 12:08:39.003 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - null null
+2025-04-28 12:08:39.110 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 106.4527ms
+2025-04-28 12:08:52.974 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:7181/api/Auth - application/json 59
+2025-04-28 12:08:53.034 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:08:53.089 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "AuthenticateUser", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUser(Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthenticateUserFeature.AuthenticateUserRequest, System.Threading.CancellationToken) on controller Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController (Ambev.DeveloperEvaluation.WebApi).
+2025-04-28 12:08:53.169 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi) - Validation state: "Valid"
+2025-04-28 12:08:54.024 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (60ms) [Parameters=[@__email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Password", u."Phone", u."Role", u."Status", u."UpdatedAt", u."Username"
+FROM "Users" AS u
+WHERE u."Email" = @__email_0
+LIMIT 1
+2025-04-28 12:08:54.438 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action method Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1262.866ms.
+2025-04-28 12:08:54.447 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthenticateUserFeature.AuthenticateUserResponse, Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-28 12:08:54.468 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi) in 1372.8985ms
+2025-04-28 12:08:54.470 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:08:54.482 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:7181/api/Auth - 200 null application/json; charset=utf-8 1507.8661ms
+2025-04-28 12:09:14.328 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/api/Sales - null null
+2025-04-28 12:09:14.377 -03:00 [INF] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'IDX10820: Invalid character found in Base64UrlEncoding. Character: '32', Encoding: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.')
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode(String input, Int32 offset, Int32 length, Byte[] output)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-04-28 12:09:14.450 -03:00 [INF] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-04-28 12:09:14.463 -03:00 [INF] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-28 12:09:14.466 -03:00 [INF] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler AuthenticationScheme: Bearer was challenged.
+2025-04-28 12:09:14.466 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/api/Sales - 401 0 null 138.7587ms
+2025-04-28 12:13:14.232 -03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2025-04-28 12:13:17.127 -03:00 [INF] Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService Health Check enabled at: '/health'
+2025-04-28 12:13:17.199 -03:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using '/Users/feliperodrigues/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-04-28 12:13:17.481 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: https://localhost:7181
+2025-04-28 12:13:17.482 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5119
+2025-04-28 12:13:17.482 -03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2025-04-28 12:13:17.482 -03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: Development
+2025-04-28 12:13:17.482 -03:00 [INF] Microsoft.Hosting.Lifetime Content root path: /Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.WebApi
+2025-04-28 12:13:17.632 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/index.html - null null
+2025-04-28 12:13:17.688 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/index.html - 200 null text/html;charset=utf-8 55.7144ms
+2025-04-28 12:13:17.715 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/index.js - null null
+2025-04-28 12:13:17.717 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/index.js - 200 null application/javascript;charset=utf-8 1.9288ms
+2025-04-28 12:13:17.746 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - null null
+2025-04-28 12:13:17.835 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 89.257ms
+2025-04-28 12:13:24.530 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:7181/api/Auth - application/json 59
+2025-04-28 12:13:24.575 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:13:24.602 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "AuthenticateUser", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUser(Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthenticateUserFeature.AuthenticateUserRequest, System.Threading.CancellationToken) on controller Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController (Ambev.DeveloperEvaluation.WebApi).
+2025-04-28 12:13:24.684 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi) - Validation state: "Valid"
+2025-04-28 12:13:25.591 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (47ms) [Parameters=[@__email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Password", u."Phone", u."Role", u."Status", u."UpdatedAt", u."Username"
+FROM "Users" AS u
+WHERE u."Email" = @__email_0
+LIMIT 1
+2025-04-28 12:13:25.901 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action method Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1213.7164ms.
+2025-04-28 12:13:25.906 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthenticateUserFeature.AuthenticateUserResponse, Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-28 12:13:25.917 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi) in 1310.7138ms
+2025-04-28 12:13:25.917 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:13:25.927 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:7181/api/Auth - 200 null application/json; charset=utf-8 1397.3007ms
+2025-04-28 12:13:41.683 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/api/Sales - null null
+2025-04-28 12:13:41.721 -03:00 [INF] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'IDX10820: Invalid character found in Base64UrlEncoding. Character: '32', Encoding: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.')
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode(String input, Int32 offset, Int32 length, Byte[] output)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-04-28 12:13:41.780 -03:00 [INF] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-04-28 12:13:41.791 -03:00 [INF] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-04-28 12:13:41.796 -03:00 [INF] Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler AuthenticationScheme: Bearer was challenged.
+2025-04-28 12:13:41.797 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/api/Sales - 401 0 null 114.4198ms
+2025-04-28 12:14:59.163 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:7181/api/Auth - application/json 59
+2025-04-28 12:14:59.168 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:14:59.173 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "AuthenticateUser", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUser(Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthenticateUserFeature.AuthenticateUserRequest, System.Threading.CancellationToken) on controller Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController (Ambev.DeveloperEvaluation.WebApi).
+2025-04-28 12:14:59.179 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi) - Validation state: "Valid"
+2025-04-28 12:14:59.235 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (9ms) [Parameters=[@__email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Password", u."Phone", u."Role", u."Status", u."UpdatedAt", u."Username"
+FROM "Users" AS u
+WHERE u."Email" = @__email_0
+LIMIT 1
+2025-04-28 12:14:59.450 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action method Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 270.5552ms.
+2025-04-28 12:14:59.451 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthenticateUserFeature.AuthenticateUserResponse, Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-28 12:14:59.452 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi) in 278.8801ms
+2025-04-28 12:14:59.452 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:14:59.452 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:7181/api/Auth - 200 null application/json; charset=utf-8 289.2146ms
+2025-04-28 12:15:08.163 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/api/Sales - null null
+2025-04-28 12:15:08.200 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetAllSales (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:15:08.211 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetAllSales", controller = "Sales"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllSales(System.Threading.CancellationToken) on controller Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController (Ambev.DeveloperEvaluation.WebApi).
+2025-04-28 12:15:08.214 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetAllSales (Ambev.DeveloperEvaluation.WebApi) in 2.0687ms
+2025-04-28 12:15:08.214 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetAllSales (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:15:08.228 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/api/Sales - 500 null text/plain; charset=utf-8 65.78ms
+2025-04-28 12:16:52.738 -03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...
+2025-04-28 12:16:56.105 -03:00 [INF] Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckService Health Check enabled at: '/health'
+2025-04-28 12:16:56.221 -03:00 [INF] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using '/Users/feliperodrigues/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-04-28 12:16:56.499 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: https://localhost:7181
+2025-04-28 12:16:56.499 -03:00 [INF] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5119
+2025-04-28 12:16:56.499 -03:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+2025-04-28 12:16:56.499 -03:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: Development
+2025-04-28 12:16:56.499 -03:00 [INF] Microsoft.Hosting.Lifetime Content root path: /Users/feliperodrigues/Documents/Repository/MoutsIt/mouts-it-test/src/Ambev.DeveloperEvaluation.WebApi
+2025-04-28 12:16:57.032 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/index.html - null null
+2025-04-28 12:16:57.144 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/index.html - 200 null text/html;charset=utf-8 112.0457ms
+2025-04-28 12:16:57.159 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/index.js - null null
+2025-04-28 12:16:57.161 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/index.js - 200 null application/javascript;charset=utf-8 1.8283ms
+2025-04-28 12:16:57.187 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - null null
+2025-04-28 12:16:57.281 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 93.9815ms
+2025-04-28 12:17:08.066 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:7181/api/Auth - application/json 59
+2025-04-28 12:17:08.091 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:17:08.105 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "AuthenticateUser", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUser(Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthenticateUserFeature.AuthenticateUserRequest, System.Threading.CancellationToken) on controller Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController (Ambev.DeveloperEvaluation.WebApi).
+2025-04-28 12:17:08.179 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi) - Validation state: "Valid"
+2025-04-28 12:17:09.419 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (52ms) [Parameters=[@__email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Password", u."Phone", u."Role", u."Status", u."UpdatedAt", u."Username"
+FROM "Users" AS u
+WHERE u."Email" = @__email_0
+LIMIT 1
+2025-04-28 12:17:09.727 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action method Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1545.8841ms.
+2025-04-28 12:17:09.733 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthenticateUserFeature.AuthenticateUserResponse, Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-28 12:17:09.745 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi) in 1636.3212ms
+2025-04-28 12:17:09.745 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthController.AuthenticateUser (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:17:09.756 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:7181/api/Auth - 200 null application/json; charset=utf-8 1689.3511ms
+2025-04-28 12:17:24.892 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/api/Sales - null null
+2025-04-28 12:17:24.956 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetAllSales (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:17:24.959 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetAllSales", controller = "Sales"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllSales(System.Threading.CancellationToken) on controller Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController (Ambev.DeveloperEvaluation.WebApi).
+2025-04-28 12:17:24.963 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetAllSales (Ambev.DeveloperEvaluation.WebApi) - Validation state: "Valid"
+2025-04-28 12:17:25.075 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."BranchId", s."BranchName", s."CustomerId", s."CustomerName", s."IsCancelled", s."SaleDate", s."SaleNumber", s."TotalAmount", s0."Id", s0."Discount", s0."ProductId", s0."ProductName", s0."Quantity", s0."SaleId", s0."TotalAmount", s0."UnitPrice"
+FROM "Sales" AS s
+LEFT JOIN "SaleItems" AS s0 ON s."Id" = s0."SaleId"
+ORDER BY s."Id"
+2025-04-28 12:17:25.076 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action method Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetAllSales (Ambev.DeveloperEvaluation.WebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 112.4547ms.
+2025-04-28 12:17:25.076 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[System.Collections.Generic.IEnumerable`1[[Ambev.DeveloperEvaluation.Application.Sales.Dtos.SaleDto, Ambev.DeveloperEvaluation.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-28 12:17:25.090 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetAllSales (Ambev.DeveloperEvaluation.WebApi) in 130.2851ms
+2025-04-28 12:17:25.090 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetAllSales (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:17:25.090 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/api/Sales - 200 null application/json; charset=utf-8 197.9392ms
+2025-04-28 12:17:55.346 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 POST https://localhost:7181/api/Sales - application/json 417
+2025-04-28 12:17:55.354 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.CreateSale (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:17:55.357 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "CreateSale", controller = "Sales"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateSale(Ambev.DeveloperEvaluation.Application.Sales.Dtos.CreateSaleDto, System.Threading.CancellationToken) on controller Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController (Ambev.DeveloperEvaluation.WebApi).
+2025-04-28 12:17:55.370 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.CreateSale (Ambev.DeveloperEvaluation.WebApi) - Validation state: "Valid"
+2025-04-28 12:17:55.547 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (23ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?', @p3='?' (DbType = Guid), @p4='?', @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTime), @p7='?', @p8='?' (DbType = Decimal), @p9='?' (DbType = Guid), @p10='?' (DbType = Decimal), @p11='?' (DbType = Guid), @p12='?', @p13='?' (DbType = Int32), @p14='?' (DbType = Guid), @p15='?' (DbType = Decimal), @p16='?' (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Sales" ("Id", "BranchId", "BranchName", "CustomerId", "CustomerName", "IsCancelled", "SaleDate", "SaleNumber", "TotalAmount")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+INSERT INTO "SaleItems" ("Id", "Discount", "ProductId", "ProductName", "Quantity", "SaleId", "TotalAmount", "UnitPrice")
+VALUES (@p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+2025-04-28 12:17:55.561 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action method Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.CreateSale (Ambev.DeveloperEvaluation.WebApi), returned result Microsoft.AspNetCore.Mvc.CreatedResult in 191.3605ms.
+2025-04-28 12:17:55.561 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing CreatedResult, writing value of type 'Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[Ambev.DeveloperEvaluation.Application.Sales.Dtos.SaleDto, Ambev.DeveloperEvaluation.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-28 12:17:55.566 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.CreateSale (Ambev.DeveloperEvaluation.WebApi) in 208.4061ms
+2025-04-28 12:17:55.566 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.CreateSale (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:17:55.566 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 POST https://localhost:7181/api/Sales - 201 null application/json; charset=utf-8 220.1001ms
+2025-04-28 12:18:12.108 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/api/Sales - null null
+2025-04-28 12:18:12.124 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetAllSales (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:18:12.129 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetAllSales", controller = "Sales"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllSales(System.Threading.CancellationToken) on controller Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController (Ambev.DeveloperEvaluation.WebApi).
+2025-04-28 12:18:12.145 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetAllSales (Ambev.DeveloperEvaluation.WebApi) - Validation state: "Valid"
+2025-04-28 12:18:12.282 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."BranchId", s."BranchName", s."CustomerId", s."CustomerName", s."IsCancelled", s."SaleDate", s."SaleNumber", s."TotalAmount", s0."Id", s0."Discount", s0."ProductId", s0."ProductName", s0."Quantity", s0."SaleId", s0."TotalAmount", s0."UnitPrice"
+FROM "Sales" AS s
+LEFT JOIN "SaleItems" AS s0 ON s."Id" = s0."SaleId"
+ORDER BY s."Id"
+2025-04-28 12:18:12.299 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action method Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetAllSales (Ambev.DeveloperEvaluation.WebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 152.4139ms.
+2025-04-28 12:18:12.299 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[System.Collections.Generic.IEnumerable`1[[Ambev.DeveloperEvaluation.Application.Sales.Dtos.SaleDto, Ambev.DeveloperEvaluation.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-28 12:18:12.301 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetAllSales (Ambev.DeveloperEvaluation.WebApi) in 171.7354ms
+2025-04-28 12:18:12.301 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetAllSales (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:18:12.301 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/api/Sales - 200 null application/json; charset=utf-8 194.0707ms
+2025-04-28 12:18:58.763 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request starting HTTP/2 GET https://localhost:7181/api/Sales/number/string - null null
+2025-04-28 12:18:58.768 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetSaleByNumber (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:18:58.775 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Route matched with {action = "GetSaleByNumber", controller = "Sales"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSaleByNumber(System.String, System.Threading.CancellationToken) on controller Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController (Ambev.DeveloperEvaluation.WebApi).
+2025-04-28 12:18:58.777 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executing action method Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetSaleByNumber (Ambev.DeveloperEvaluation.WebApi) - Validation state: "Valid"
+2025-04-28 12:18:58.811 -03:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (8ms) [Parameters=[@__saleNumber_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."BranchId", t."BranchName", t."CustomerId", t."CustomerName", t."IsCancelled", t."SaleDate", t."SaleNumber", t."TotalAmount", s0."Id", s0."Discount", s0."ProductId", s0."ProductName", s0."Quantity", s0."SaleId", s0."TotalAmount", s0."UnitPrice"
+FROM (
+    SELECT s."Id", s."BranchId", s."BranchName", s."CustomerId", s."CustomerName", s."IsCancelled", s."SaleDate", s."SaleNumber", s."TotalAmount"
+    FROM "Sales" AS s
+    WHERE s."SaleNumber" = @__saleNumber_0
+    LIMIT 1
+) AS t
+LEFT JOIN "SaleItems" AS s0 ON t."Id" = s0."SaleId"
+ORDER BY t."Id"
+2025-04-28 12:18:58.812 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action method Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetSaleByNumber (Ambev.DeveloperEvaluation.WebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 34.9303ms.
+2025-04-28 12:18:58.813 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor Executing OkObjectResult, writing value of type 'Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[Ambev.DeveloperEvaluation.WebApi.Common.ApiResponseWithData`1[[Ambev.DeveloperEvaluation.Application.Sales.Dtos.SaleDto, Ambev.DeveloperEvaluation.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Ambev.DeveloperEvaluation.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-28 12:18:58.815 -03:00 [INF] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Executed action Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetSaleByNumber (Ambev.DeveloperEvaluation.WebApi) in 40.2322ms
+2025-04-28 12:18:58.815 -03:00 [INF] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint 'Ambev.DeveloperEvaluation.WebApi.Features.Sales.SalesController.GetSaleByNumber (Ambev.DeveloperEvaluation.WebApi)'
+2025-04-28 12:18:58.816 -03:00 [INF] Microsoft.AspNetCore.Hosting.Diagnostics Request finished HTTP/2 GET https://localhost:7181/api/Sales/number/string - 200 null application/json; charset=utf-8 53.0295ms
+2025-04-28 12:23:04.991 -03:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down...

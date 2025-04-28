@@ -12,8 +12,6 @@ public class GetUserValidator : AbstractValidator<GetUserCommand>
     /// </summary>
     public GetUserValidator()
     {
-        RuleFor(x => x.Id)
-            .NotEmpty()
-            .WithMessage("User ID is required");
+        RuleFor(x => x.Id).NotEmpty().WithMessage("User ID is required");
     }
 }

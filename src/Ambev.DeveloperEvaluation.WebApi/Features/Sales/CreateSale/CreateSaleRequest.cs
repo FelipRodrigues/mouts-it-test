@@ -28,27 +28,17 @@ public class CreateSaleRequestValidator : AbstractValidator<CreateSaleRequest>
 {
     public CreateSaleRequestValidator()
     {
-        RuleFor(x => x.SaleNumber)
-            .NotEmpty()
-            .MaximumLength(50);
+        RuleFor(x => x.SaleNumber).NotEmpty().MaximumLength(50);
 
-        RuleFor(x => x.SaleDate)
-            .NotEmpty()
-            .LessThanOrEqualTo(DateTime.UtcNow);
+        RuleFor(x => x.SaleDate).NotEmpty().LessThanOrEqualTo(DateTime.UtcNow);
 
-        RuleFor(x => x.CustomerId)
-            .NotEmpty();
+        RuleFor(x => x.CustomerId).NotEmpty();
 
-        RuleFor(x => x.CustomerName)
-            .NotEmpty()
-            .MaximumLength(100);
+        RuleFor(x => x.CustomerName).NotEmpty().MaximumLength(100);
 
-        RuleFor(x => x.BranchId)
-            .NotEmpty();
+        RuleFor(x => x.BranchId).NotEmpty();
 
-        RuleFor(x => x.BranchName)
-            .NotEmpty()
-            .MaximumLength(100);
+        RuleFor(x => x.BranchName).NotEmpty().MaximumLength(100);
 
         RuleFor(x => x.Items)
             .NotEmpty()
@@ -63,22 +53,17 @@ public class CreateSaleItemRequestValidator : AbstractValidator<CreateSaleItemRe
 {
     public CreateSaleItemRequestValidator()
     {
-        RuleFor(x => x.ProductId)
-            .NotEmpty();
+        RuleFor(x => x.ProductId).NotEmpty();
 
-        RuleFor(x => x.ProductName)
-            .NotEmpty()
-            .MaximumLength(100);
+        RuleFor(x => x.ProductName).NotEmpty().MaximumLength(100);
 
-        RuleFor(x => x.UnitPrice)
-            .GreaterThan(0);
+        RuleFor(x => x.UnitPrice).GreaterThan(0);
 
-        RuleFor(x => x.Quantity)
-            .GreaterThan(0);
+        RuleFor(x => x.Quantity).GreaterThan(0);
 
         RuleFor(x => x.Discount)
             .GreaterThanOrEqualTo(0)
             .LessThanOrEqualTo(x => x.UnitPrice * x.Quantity)
             .WithMessage("Discount cannot be greater than the total amount");
     }
-} 
+}

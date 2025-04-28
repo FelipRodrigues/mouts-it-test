@@ -48,20 +48,15 @@ public class CreateUserHandlerTests
             Email = command.Email,
             Phone = command.Phone,
             Status = command.Status,
-            Role = command.Role
+            Role = command.Role,
         };
 
-        var result = new CreateUserResult
-        {
-            Id = user.Id,
-        };
-
+        var result = new CreateUserResult { Id = user.Id };
 
         _mapper.Map<User>(command).Returns(user);
         _mapper.Map<CreateUserResult>(user).Returns(result);
 
-        _userRepository.CreateAsync(Arg.Any<User>(), Arg.Any<CancellationToken>())
-            .Returns(user);
+        _userRepository.CreateAsync(Arg.Any<User>(), Arg.Any<CancellationToken>()).Returns(user);
         _passwordHasher.HashPassword(Arg.Any<string>()).Returns("hashedPassword");
 
         // When
@@ -70,13 +65,17 @@ public class CreateUserHandlerTests
         // Then
         createUserResult.Should().NotBeNull();
         createUserResult.Id.Should().Be(user.Id);
-        await _userRepository.Received(1).CreateAsync(Arg.Any<User>(), Arg.Any<CancellationToken>());
+        await _userRepository
+            .Received(1)
+            .CreateAsync(Arg.Any<User>(), Arg.Any<CancellationToken>());
     }
 
     /// <summary>
     /// Tests that an invalid user creation request throws a validation exception.
     /// </summary>
-    [Fact(DisplayName = "Given invalid user data When creating user Then throws validation exception")]
+    [Fact(
+        DisplayName = "Given invalid user data When creating user Then throws validation exception"
+    )]
     public async Task Handle_InvalidRequest_ThrowsValidationException()
     {
         // Given
@@ -107,12 +106,11 @@ public class CreateUserHandlerTests
             Email = command.Email,
             Phone = command.Phone,
             Status = command.Status,
-            Role = command.Role
+            Role = command.Role,
         };
 
         _mapper.Map<User>(command).Returns(user);
-        _userRepository.CreateAsync(Arg.Any<User>(), Arg.Any<CancellationToken>())
-            .Returns(user);
+        _userRepository.CreateAsync(Arg.Any<User>(), Arg.Any<CancellationToken>()).Returns(user);
         _passwordHasher.HashPassword(originalPassword).Returns(hashedPassword);
 
         // When
@@ -120,9 +118,12 @@ public class CreateUserHandlerTests
 
         // Then
         _passwordHasher.Received(1).HashPassword(originalPassword);
-        await _userRepository.Received(1).CreateAsync(
-            Arg.Is<User>(u => u.Password == hashedPassword),
-            Arg.Any<CancellationToken>());
+        await _userRepository
+            .Received(1)
+            .CreateAsync(
+                Arg.Is<User>(u => u.Password == hashedPassword),
+                Arg.Any<CancellationToken>()
+            );
     }
 
     /// <summary>
@@ -141,23 +142,27 @@ public class CreateUserHandlerTests
             Email = command.Email,
             Phone = command.Phone,
             Status = command.Status,
-            Role = command.Role
+            Role = command.Role,
         };
 
         _mapper.Map<User>(command).Returns(user);
-        _userRepository.CreateAsync(Arg.Any<User>(), Arg.Any<CancellationToken>())
-            .Returns(user);
+        _userRepository.CreateAsync(Arg.Any<User>(), Arg.Any<CancellationToken>()).Returns(user);
         _passwordHasher.HashPassword(Arg.Any<string>()).Returns("hashedPassword");
 
         // When
         await _handler.Handle(command, CancellationToken.None);
 
         // Then
-        _mapper.Received(1).Map<User>(Arg.Is<CreateUserCommand>(c =>
-            c.Username == command.Username &&
-            c.Email == command.Email &&
-            c.Phone == command.Phone &&
-            c.Status == command.Status &&
-            c.Role == command.Role));
+        _mapper
+            .Received(1)
+            .Map<User>(
+                Arg.Is<CreateUserCommand>(c =>
+                    c.Username == command.Username
+                    && c.Email == command.Email
+                    && c.Phone == command.Phone
+                    && c.Status == command.Status
+                    && c.Role == command.Role
+                )
+            );
     }
 }

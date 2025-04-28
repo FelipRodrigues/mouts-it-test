@@ -56,9 +56,17 @@
               "target": "Package",
               "version": "[12.4.1, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "OneOf": {
               "target": "Package",
               "version": "[3.0.271, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.31, )"
             }
           },
           "imports": [

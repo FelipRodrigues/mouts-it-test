@@ -25,4 +25,4 @@ public class GetSaleItemResponse
     public int Quantity { get; set; }
     public decimal Discount { get; set; }
     public decimal TotalAmount { get; set; }
-} 
+}

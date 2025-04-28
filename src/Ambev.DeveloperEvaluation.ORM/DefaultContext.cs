@@ -1,8 +1,8 @@
-﻿using Ambev.DeveloperEvaluation.Domain.Entities;
+﻿using System.Reflection;
+using Ambev.DeveloperEvaluation.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
-using System.Reflection;
 
 namespace Ambev.DeveloperEvaluation.ORM;
 
@@ -10,9 +10,8 @@ public class DefaultContext : DbContext
 {
     public DbSet<User> Users { get; set; }
 
-    public DefaultContext(DbContextOptions<DefaultContext> options) : base(options)
-    {
-    }
+    public DefaultContext(DbContextOptions<DefaultContext> options)
+        : base(options) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -20,6 +19,7 @@ public class DefaultContext : DbContext
         base.OnModelCreating(modelBuilder);
     }
 }
+
 public class YourDbContextFactory : IDesignTimeDbContextFactory<DefaultContext>
 {
     public DefaultContext CreateDbContext(string[] args)
@@ -33,8 +33,8 @@ public class YourDbContextFactory : IDesignTimeDbContextFactory<DefaultContext>
         var connectionString = configuration.GetConnectionString("DefaultConnection");
 
         builder.UseNpgsql(
-               connectionString,
-               b => b.MigrationsAssembly("Ambev.DeveloperEvaluation.ORM")
+            connectionString,
+            b => b.MigrationsAssembly("Ambev.DeveloperEvaluation.ORM")
         );
 
         return new DefaultContext(builder.Options);

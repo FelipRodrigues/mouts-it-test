@@ -15,4 +15,4 @@ namespace Ambev.DeveloperEvaluation.Domain.Interfaces
         Task<Sale?> GetBySaleNumberAsync(string saleNumber);
         Task DeleteAsync(Guid id);
     }
-} 
+}
